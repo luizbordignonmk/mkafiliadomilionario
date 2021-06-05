@@ -1071,21 +1071,44 @@ a {
 .cid-ssAeKCVApn .mbr-text {
   color: #ffffff;
 }
-.cid-ssAg2ii0KZ {
-  padding-top: 1rem;
+.cid-szt8zjyv0A {
+  padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
-@media (max-width: 991px) {
-  .cid-ssAg2ii0KZ .image-wrapper {
-    margin-bottom: 1rem;
+.cid-szt8zjyv0A .oldcost {
+  text-decoration: line-through;
+  color: #e43f3f;
+}
+.cid-szt8zjyv0A .currentcost {
+  color: #a8b80a;
+}
+.cid-szt8zjyv0A .card-wrapper {
+  border-radius: 4px;
+  background: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-szt8zjyv0A .text-box {
+    padding: 2rem;
+    padding-right: 4rem;
   }
 }
-.cid-ssAg2ii0KZ .row {
-  flex-direction: row-reverse;
+@media (max-width: 991px) {
+  .cid-szt8zjyv0A .text-box {
+    padding: 2rem;
+  }
 }
-.cid-ssAg2ii0KZ img {
+@media (max-width: 767px) {
+  .cid-szt8zjyv0A .text-box {
+    padding: 1rem;
+  }
+}
+.cid-szt8zjyv0A .image-wrapper img {
   width: 100%;
+  object-fit: cover;
+}
+.cid-szt8zjyv0A H5 {
+  color: #000000;
 }
 .cid-ssAgEaTBGs {
   padding-top: 1rem;
